@@ -4,7 +4,6 @@ import imutils
 from typing import Tuple, List, Dict
 import time
 import json
-
 class LightBulbDetector:
     def __init__(self):
         self.camera = None
@@ -264,4 +263,5 @@ if __name__ == "__main__":
         
         detector.close_camera()
     else:
+
         print("Failed to open camera") 
